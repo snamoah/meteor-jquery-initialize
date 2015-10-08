@@ -1,4 +1,4 @@
-ckage.describe({
+Package.describe({
   name: 'snamoah:meteor-jquery-initialize',
   version: '0.0.1',
   // Brief, one-line summary of the package.
@@ -20,5 +20,4 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('snamoah:meteor-jquery-initialize');
-  api.addFiles('meteor-jquery-initialize-tests.js');
 });
